@@ -25,5 +25,4 @@ def filter_json_to_csv(json_filename, csv_filename, cluster_filter):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-# Example usage:
 filter_json_to_csv('all_inventory_list.json', 'HQ-VMWARE-Cluster.csv', 'HQ-VMWARE')
